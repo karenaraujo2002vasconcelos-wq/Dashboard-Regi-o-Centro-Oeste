@@ -78,8 +78,10 @@ RODAPE_HTML = """
 # ==========================================
 # 2. DEFINIÇÃO DE CAMINHOS REAIS E SIDEBAR
 # ==========================================
-BASE_PATH = r"C:\Users\samue\Downloads\dashboard-economia-centro-oeste\dashboard-economia-sudeste-main\data_raw"
-PATH_UFS = BASE_PATH + r"\municipios\BR_UF_2025"
+# Mude para usar barras normais e os nomes corretos das pastas/arquivos
+BASE_PATH = "."
+PATH_UFS = BASE_PATH + "/municipios/BR_Municipios_2025"
+arquivo_shapefile = PATH_UFS + "/BR_Municipios_2025.shp"
 
 st.sidebar.markdown("<h2 style='color: #2D5A27; font-weight:700; margin-bottom:0;'>Painel Centro-Oeste</h2>", unsafe_allow_html=True)
 st.sidebar.markdown("---")
